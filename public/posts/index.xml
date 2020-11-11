@@ -37,6 +37,7 @@ Static Site Generation I went with Hugo, after some research online:
 <p>First I could not decide for several days whether to host it at home, on a VM in the cloud or via GitHub/Gitlab. I figured that I want it somewhat in my own hands while not doing everything by myself.</p>
 <p>For now I went with hosting over GitHub pages. After testing GitLab pages and not wanting to go through setting up a VM myself for now it seemed like the best choice.</p>
 <h2 id="publishing">Publishing</h2>
+<p>Publishing goes as easy as described here: <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Deploy Hugo as a GitHub Pages project</a>.</p>
 ]]></content>
 		</item>
 		
