@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on David Wilde</title>
+		<link>david.wilde-ventures.com/posts/</link>
+		<description>Recent content in Posts on David Wilde</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Mon, 25 May 2020 09:10:55 +0000</lastBuildDate>
+		<atom:link href="david.wilde-ventures.com/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Creating This Website</title>
+			<link>david.wilde-ventures.com/posts/creating-this-website/</link>
+			<pubDate>Mon, 25 May 2020 09:10:55 +0000</pubDate>
+			
+			<guid>david.wilde-ventures.com/posts/creating-this-website/</guid>
+			<description>This is the start of my personal website. And instead of writing some generic, somewhat empty first post saying &amp;lsquo;Hello World!&amp;rsquo;. I instead want to write about how I created this website. Foremost as a tutorial for myself.
+Static Site Generation I went with Hugo, after some research online:
+ You could all build it by yourself Jekyll, generates html with themes from markdown, runs locally, well integrated with GitHub, written in Ruby (I think) Hugo, fast, works everywhere, easy to use, written in Go  And yes, it&amp;rsquo;s fast and easy to use.</description>
+			<content type="html"><![CDATA[<p>This is the start of my personal website. And instead of writing some generic, somewhat empty first post saying &lsquo;Hello World!&rsquo;. I instead want to write about how I created this website. Foremost as a tutorial for myself.</p>
+<h2 id="static-site-generation">Static Site Generation</h2>
+<p>I went with Hugo, after some research online:</p>
+<ul>
+<li>You could all build it by yourself</li>
+<li>Jekyll, generates html with themes from markdown, runs locally, well integrated with GitHub, written in Ruby (I think)</li>
+<li>Hugo, fast, works everywhere, easy to use, written in Go</li>
+</ul>
+<p>And yes, it&rsquo;s fast and easy to use. I rebuild my website from scratch several times one day and there was no hustle. Utilizing one of the many themes available (<a href="https://themes.gohugo.io">Hugo Themes</a>) is also straight forward.</p>
+<p>For this site I used the <a href="https://github.com/Track3/hermit">hermit theme</a> from <a href="https://github.com/austingebauer">Austin Gebauer</a>.</p>
+<h2 id="domain">Domain</h2>
+<p>I probably didn&rsquo;t do it properly here, let&rsquo;s see:</p>
+<p>I bought or rented a domain, actually for another project, with GoDaddy. It seemed straight forward for me. Then, for some reason, I decided to create a dynamic domain name server (DDNS) not with GoDaddy, but with dnyu.com.</p>
+<p>Though I forgot why I did that, it turns out that this was the easier choice for me. Managing my DNS from dnyu is more convenient. The UI looks older, but reacts faster and everything is more easily accessible.</p>
+<h2 id="hosting">Hosting</h2>
+<p>It was a rough ride here.</p>
+<p>First I could not decide for several days whether to host it at home, on a VM in the cloud or via GitHub/Gitlab. I figured that I want it somewhat in my own hands while not doing everything by myself.</p>
+<p>For now I went with hosting over GitHub pages. After testing GitLab pages and not wanting to go through setting up a VM myself for now it seemed like the best choice.</p>
+<h2 id="publishing">Publishing</h2>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
