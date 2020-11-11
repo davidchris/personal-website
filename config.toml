@@ -1,53 +1,80 @@
-baseURL = ""
+baseURL = "david.wilde-ventures.com"
 languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "David Wilde"
-theme = "devise"
+theme = "hermit"
+# enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
 
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "yourdiscussshortname"
 
-relativeURLs = true
-enableEmoji = true
-googleAnalytics = ""
-enableRobotsTXT = true
-copyright = "&copy; Copyright Year, Your Name"
+[author]
+  name = "David Wilde"
 
-# Main menu items
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "About"
-    url = "/about/"
-    weight = -110
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    title = "Posts"
-    url = "/post/"
-    weight = -100
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    title = "Categories"
-    url = "/categories/"
-    weight = -90
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
 
-# Configuration Features
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+
 [params]
-  header_title = "David Wilde"                 # Your header title
-  header_subtitle = "Data Science, Leadership, Decision Making under Uncertainty" # Your header subtitle
-  home_image = "/images/avatar.png"          # Path to header image starting from the static directory
-  recent_posts = 5                           # Max amount of recent posts to show
-  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
-  [[params.social]]
-    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
-    href = "http://github.com/davidchris"      # Link to associate with icon (http://, https://, mailto:)
-  [[params.social]]
-    fa_icon = "fab fa-linkedin-in fa-1x"
-    href = "https://www.linkedin.com/in/davidcwilde/"
-  [[params.social]]
-    fa_icon = "fab fa-twitter fa-1x"
-    href = "https://twitter.com/DavidChrisGer"
-  [[params.social]]
-    fa_icon = "fas fa-at fa-1x"
-    href = "mailto:david@wilde-ventures.com"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c" # original #494f5c
+
+  homeSubtitle = "Data Science, leadership, automated decision making under uncertainty"
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""  # Homepage background-image URL
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = false  # Add a related content section to all single posts page
+
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/DavidChrisGer"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/davidcwilde/"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/davidchris"
+
+[menu]
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 20
