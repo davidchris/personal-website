@@ -16,7 +16,7 @@ I went with Hugo, after some research online:
 
 And yes, it's fast and easy to use. I rebuild my website from scratch several times one day and there was no hustle. Utilizing one of the many themes available ([Hugo Themes](https://themes.gohugo.io)) is also straight forward.
 
-For this site I used the [hermit theme](https://github.com/Track3/hermit) from [Austin Gebauer](https://github.com/austingebauer).
+For this site I used the [hello-friend-ng theme](https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng/) from [Djordje Atlialp](https://atlialp.com).
 
 ## Domain
 
@@ -32,7 +32,7 @@ It was a rough ride here.
 
 First I could not decide for several days whether to host it at home, on a VM in the cloud or via GitHub/Gitlab. I figured that I want it somewhat in my own hands while not doing everything by myself.
 
-For now I went with hosting over GitHub pages. After testing GitLab pages and not wanting to go through setting up a VM myself for now it seemed like the best choice. 
+For now I went with hosting over GitHub pages. After testing GitLab pages and not wanting to go through setting up a VM myself for now it seemed like the best choice.
 
 ## Publishing
 

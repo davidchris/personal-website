@@ -2,7 +2,7 @@ baseURL = "david.wilde-ventures.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "David Wilde"
-theme = "hermit"
+theme = "hello-friend-ng"
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -36,7 +36,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c" # original #494f5c
 
-  homeSubtitle = "Data Science, leadership, automated decision making under uncertainty"
+  homeSubtitle = "Data Science, (automated) decision making under uncertainty, leadership"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
