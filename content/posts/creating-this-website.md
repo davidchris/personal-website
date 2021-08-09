@@ -37,3 +37,7 @@ For now I went with hosting over GitHub pages. After testing GitLab pages and no
 ## Publishing
 
 Publishing goes as easy as described here: [Deploy Hugo as a GitHub Pages project](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
+
+**Edit 2021-08-09**: Something I forgot to add here which confused me a lot in the last few days is to have my `public/` directory as a git sub-module.
+This sub-module has the GitHub Page as its remote.
+The 'rest' of the code, the repository, is the source to generate the page, which goes into another git repository.

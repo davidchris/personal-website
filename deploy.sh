@@ -6,7 +6,7 @@ set -e
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
-hugo -t hermit # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -t hello-friend-ng # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
@@ -22,5 +22,5 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master
+git push origin HEAD:master
 
