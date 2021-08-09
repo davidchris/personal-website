@@ -41,3 +41,5 @@ Publishing goes as easy as described here: [Deploy Hugo as a GitHub Pages projec
 **Edit 2021-08-09**: Something I forgot to add here which confused me a lot in the last few days is to have my `public/` directory as a git sub-module.
 This sub-module has the GitHub Page as its remote.
 The 'rest' of the code, the repository, is the source to generate the page, which goes into another git repository.
+
+Thanks to: [Create and host a blog with Hugo and GitHub Pages in less than 30 minutes](https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/)

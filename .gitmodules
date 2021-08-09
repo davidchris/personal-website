@@ -4,3 +4,21 @@
 [submodule "themes/hermit"]
 	path = themes/hermit
 	url = https://github.com/Track3/hermit.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/tufte"]
+	path = themes/tufte
+	url = git@github.com:slashformotion/hugo-tufte.git
+[submodule "themes/minima"]
+	path = themes/minima
+	url = git@github.com:Mivinci/hugo-theme-minima.git
+[submodule "themes/anubis"]
+	path = themes/anubis
+	url = git@github.com:Mitrichius/hugo-theme-anubis.git
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = git@github.com:panr/hugo-theme-hello-friend.git
+[submodule "themes/coder"]
+	path = themes/coder
+	url = git@github.com:luizdepra/hugo-coder.git
