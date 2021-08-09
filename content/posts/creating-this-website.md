@@ -34,6 +34,16 @@ First I could not decide for several days whether to host it at home, on a VM in
 
 For now I went with hosting over GitHub pages. After testing GitLab pages and not wanting to go through setting up a VM myself for now it seemed like the best choice.
 
+**Edit 2021-08-09**: Today I set the page to enforce https--even though it is just a static page, some browser (will) expect https to be there.
+This broke my page: theme was not working, and links were broken (i.e. adding the url twice behind each other). 
+A fix I found here: [Theme on github pages not working](https://github.com/matcornic/hugo-theme-learn/issues/204).
+
+* I changed the `baseURL` to include the https
+* remove the contents of the `public` folder
+* rebuild the site
+
+Now it seems to be fixed.
+
 ## Publishing
 
 Publishing goes as easy as described here: [Deploy Hugo as a GitHub Pages project](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
