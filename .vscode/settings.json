@@ -1,3 +1,4 @@
 {
-    "tidyMarkdown.disableFormatter": true
+    "tidyMarkdown.disableFormatter": true,
+    "editor.fontFamily": "iA Writer Duo S"
 }
